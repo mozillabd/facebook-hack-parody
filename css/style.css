@@ -1,0 +1,35 @@
+@media min-width 768px {
+  #main {
+    margin-top: 20px;
+  }
+}
+
+#motto {
+  font-size: 18px;
+  font-family: 'Droid Sans';
+  font-weight: 700;
+}
+
+#modontek {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#code {
+  padding: 10px;
+  width: 100%;
+  height: 450px;
+  background-color: #000;
+  color: green;
+  font-family: monospace;
+}
+
+.bigtext {
+  font-size: 24px;
+  font-family: SolaimanLipi, 'Siyam Rupali', SutonnyOMJ, sans-serif;
+  color: #FF0;
+}
+
+.stButton .stFb,.stButton .stTwbutton,.stButton .stMainServices,.stArrow {
+  height: 22px !important;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+  <title>এক মিনিটেই ফেসবুক হ্যাক - মোজিলা বাংলাদেশ</title>
+
+  <meta content=
+  "চোখের নিমিষেই এক মিনিটে ফেসবুক অ্যাকাউন্ট হ্যাক করার সফটওয়্যার ও টিউটোরিয়াল মোজিলা বাংলাদেশের পক্ষ থেকে।"
+  name="description">
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <meta content="http://mozillabd.org/static_content/hackbot/image.jpg">
+  <script src="http://w.sharethis.com/button/buttons.js" type=
+  "text/javascript"></script>
+  <script type="text/javascript">
+stLight.options({publisher: "9e1c1d64-9800-4bb1-9873-8c94be1169db", doNotHash: false, doNotCopy: false, hashAddressBar: false});
+  </script>
+</head>
+
+<body onload="init()">
+  <div id="fb-root"></div><script>
+        window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '{{your-facebook-app-id}}',
+              status     : true,
+              xfbml      : true
+            });
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "http://connect.facebook.net/en_US/all.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <div class="container" id="main">
+    <div class="row">
+      <div class="col col-sm-6">
+        <h1 id="modontek"><strong>ফেসবুক হ্যাক টুল</strong></h1>
+
+        <p id="motto">চোখের নিমিষেই এক মিনিটে ফেসবুক অ্যাকাউন্ট হ্যাক করার
+        সফটওয়্যার ও টিউটোরিয়াল, <a href="http://mozillabd.org">মোজিলা
+        বাংলাদেশের</a> পক্ষ থেকে।</p><br>
+        <br>
+
+        <div>
+          <div class="form-group">
+            <label for="facebookID">Facebook Username or Profile ID</label>
+            <input class="form-control" disabled id="facebookID" placeholder=
+            "Enter Facebook Username" type="text"><br>
+            <a class="btn btn-default" href="#" id="hackbutton" onclick=
+            "showUserData()">Start Hackbot</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col col-sm-6">
+        <div contenteditable="false" id="code"></div>
+      </div>
+
+    </div>
+  </div>
+  <script src="js/action.js"></script>
+</body>
+</html>
